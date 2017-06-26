@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>simon</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="container-fluid text-center">
+      <h1>  Simon Game </h1>     
+    <div class="row">
+      <div class="container">
+        <div class="green"></div>
+        <div class="red"></div>
+        <div class="yellow"></div>
+        <div class="blue"></div>
+        <div class="status">
+          <div class="wrong" style="display:none"><i class="fa fa-times"></i></div>
+          <div class="correct" style="display:none"><i class="fa fa-check"></i></div>
+          <div class="trophy" style="display:none"><i class="fa fa-trophy"></i></div>
+        </div>
+      </div>
+      <br>
+      <div class="leveltext">LEVEL
+        <div class="level">1</div>
+     </div> <!-- end: class level text -->
+     <br>
+      <button class="btn btn-primary play">Start/Replay</button>
+      <button class="btn btn-primary reset">Reset Game</button>
+      <br>
+      <br>
+    </div> 
+    <div class="row text-center">
+    </div> 
+  </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
